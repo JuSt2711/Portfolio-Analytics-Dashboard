@@ -89,7 +89,7 @@ As visualized below, the strategic allocation successfully captured strong secul
 ![Cumulative Returns](Images/performance.png)
 *Figure 2: Cumulative Returns vs. Benchmark. Comparative growth path of the optimized Maximum Sharpe Portfolio (blue) against the selected market benchmark (red) from 2020 to 2026. Returns are plotted as percentage growth, demonstrating a substantial performance spread over the long term.*
 
-### 3.2 Consistency of Risk-Adjusted Returns (Rolling Sharpe Ratio)
+### 2.3 Consistency of Risk-Adjusted Returns (Rolling Sharpe Ratio)
 While cumulative returns illustrate absolute growth, they do not reflect whether the performance was achieved through structural efficiency or highly volatile, short-term surges. To analyze the temporal consistency of the portfolio's risk-adjusted outperformance, a 252-day moving window was utilized to calculate the rolling Sharpe Ratio.
 
 The rolling analysis reveals that the optimized portfolio maintained a superior risk-adjusted profile compared to the benchmark across the majority of the observed market regimes. Even during macroeconomic shifts and periods of heightened market compression, the portfolio's rolling metric consistently rebounded faster and remained predominantly above the zero-line. This cyclical persistence proves that the allocation model successfully maximized diversified returns per unit of portfolio volatility, rather than just taking on uncompensated beta.
@@ -97,7 +97,7 @@ The rolling analysis reveals that the optimized portfolio maintained a superior 
 ![Rolling Sharpe Ratio](Images/rolling_sharpe.png)
 *Figure 3: 252-Day Rolling Sharpe Ratio. Time-varying risk-adjusted performance of the optimized portfolio (blue) versus the benchmark index (red). The dashed gray line indicates a Sharpe Ratio of zero, serving as the threshold for positive risk-adjusted excess returns.*
 
-### 3.3 Risk Diagnostics and Structural Vulnerability
+### 2.4 Risk Diagnostics and Structural Vulnerability
 To achieve a comprehensive understanding of the portfolio's risk profile, the final dimension of the analysis focuses on structural downside vulnerability and underlying asset dependencies.
 
 The Drawdown Analysis evaluates the historical peak-to-trough declines, charting the continuous "underwater" periods of both the portfolio and the benchmark. While the optimized portfolio generated significant alpha, it also experienced a maximum drawdown of -34.9%, driven by the high-beta technology exposure and momentum stocks like GameStop. However, the recovery timeline aligns closely with the broader market, indicating that the portfolio's drawdowns were cyclical rather than structural collapses.
