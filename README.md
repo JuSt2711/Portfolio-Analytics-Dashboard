@@ -125,7 +125,9 @@ git clone https://github.com/JuSt2711/Portfolio-Analytics-Dashboard.git
 cd Portfolio-Analytics-Dashboard
 
 ### 2. Install dependencies
+Install all required libraries using pip:
 pip install streamlit numpy pandas yfinance plotly requests
 
 ### 3. Launch dashboard
+Start the local Streamlit server:
 streamlit run app.py
