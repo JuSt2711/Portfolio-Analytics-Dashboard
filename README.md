@@ -1,4 +1,3 @@
-```markdown
 # Portfolio Analytics Dashboard v1.0
 
 An interactive, high-performance quantitative finance dashboard built with Streamlit, Pandas, and Plotly. This application empowers investors to construct portfolios, simulate asset allocations via Modern Portfolio Theory (MPT), and execute deep-dive risk and performance benchmarking against major market indices.
@@ -115,14 +114,14 @@ The structural resilience behind these metrics is explained by the Correlation M
 
 ---
 
-## 3. How to run it
+## 3. How to Run
 
 To run this analytics dashboard on your local machine, follow these three simple steps:
 
 ### 1. Clone the Repository & Navigate
-Open your terminal/command prompt and clone this repository, then switch into the project directory:
+Open your terminal or command prompt, clone this repository, and switch into the project directory:
 ```bash
-git clone [https://github.com/JuSt2711/Portfolio-Analytics-Dashboard.git](https://github.com/JuSt2711/Portfolio-Analytics-Dashboard.git)
+git clone https://github.com/JuSt2711/Portfolio-Analytics-Dashboard.git
 cd Portfolio-Analytics-Dashboard
 
 ### 2. Install dependencies
