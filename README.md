@@ -121,13 +121,18 @@ To run this analytics dashboard on your local machine, follow these three simple
 ### 1. Clone the Repository & Navigate
 Open your terminal or command prompt, clone this repository, and switch into the project directory:
 ```bash
-git clone https://github.com/JuSt2711/Portfolio-Analytics-Dashboard.git
+git clone [https://github.com/JuSt2711/Portfolio-Analytics-Dashboard.git](https://github.com/JuSt2711/Portfolio-Analytics-Dashboard.git)
 cd Portfolio-Analytics-Dashboard
+```
 
-2. Install dependencies
-Install all required libraries using pip:
+### 2. Install Dependencies
+Install all required libraries using `pip`:
+```bash
 pip install streamlit numpy pandas yfinance plotly requests
+```
 
-3. Launch dashboard
+### 3. Launch the Dashboard
 Start the local Streamlit server:
+```bash
 streamlit run app.py
+```
