@@ -126,8 +126,10 @@ cd Portfolio-Analytics-Dashboard
 
 ### 2. Install dependencies
 Install all required libraries using pip:
+```bash
 pip install streamlit numpy pandas yfinance plotly requests
 
 ### 3. Launch dashboard
 Start the local Streamlit server:
+```bash
 streamlit run app.py
